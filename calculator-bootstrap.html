@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <h1 class="p-4 text-center">Calculator Fun (with Bootstrap)</h1>
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-6 order-md-12 calculator-container">
+        <div class="calculator-body m-5">
+
+          <div class="row m-4">
+            <div class="col screen text-right ml-auto rounded">
+              <p>400 + 4 = 404</p>
+            </div>
+          </div>
+
+          <div class="row mx-4">
+            <button class="col" type="button" value="clear">clear</button>
+            <button class="col" type="button" value="divide">/</button>
+            <button class="col" type="button" value="multiply">x</button>
+          </div>
+
+          <div class="row mx-4">
+            <button class="col" type="button" value="7">7</button>
+            <button class="col" type="button" value="8">8</button>
+            <button class="col" type="button" value="9">9</button>
+            <button class="col" type="button" value="minus">-</button>
+          </div>
+
+          <div class="row mx-4">
+            <button class="col ml-auto" type="button" value="4">4</button>
+            <button class="col ml-auto" type="button" value="5">5</button>
+            <button class="col ml-auto" type="button" value="6">6</button>
+            <button class="col ml-auto" type="button" value="plus">+</button>
+          </div>
+
+          <div class="row mx-4">
+            <button class="col ml-auto" type="button" value="1">1</button>
+            <button class="col ml-auto" type="button" value="2">2</button>
+            <button class="col ml-auto" type="button" value="3">3</button>
+            <button class="col ml-auto" type="button" value="decimal">.</button>
+          </div>
+
+          <div class="row mx-4 mb-4">
+            <button class="col ml-auto" type="button" value="0">0</button>
+            <button class="col ml-auto" type="button" value="equals">=</button>
+          </div>
+
+        </div><!-- closes calculator body -->
+      </div><!-- closes calculator container -->
+
+
+      <div class="col-md-5 image-container d-flex justify-content-center">
+        <img class="img-fluid rounded mb-4" id="main-img" src="desk.png" alt="desk">
+      </div>
+
+    </div> <!-- closes main row -->
+
+    <!-- <div class="row">
+    <div class="col">
+    <footer>***calculator fun***</footer>
+  </div>
+</div> -->
+
+</div><!-- closes main container -->
+
+
+
+</body>
+</html>

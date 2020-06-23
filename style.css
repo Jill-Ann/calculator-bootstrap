@@ -1,0 +1,58 @@
+html body {
+  background-color: rgb(252, 233, 229);
+}
+
+h1 {
+  color: navy;
+  font-family: 'Sriracha', cursive;
+}
+
+.calculator-body {
+  /* border: 3px solid rgb(52, 50, 183); */
+  border: 3px solid navy;
+  border-radius: 10px;
+  background-color: rgb(183, 179, 255);
+}
+
+.screen {
+  /* border: 2px solid rgb(52, 50, 183); */
+  border: 2px solid navy;
+  background-color: rgb(252, 233, 229);
+}
+
+.screen p {
+  color: navy;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-right: 20px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 4px;
+  background-color: rgb(252, 233, 229);
+  /* border: 2px solid rgb(52, 50, 183); */
+  border: 2px solid navy;
+  margin: 3px !important;
+  border-radius: 5px !important;
+  color: navy;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+button:hover {
+  background-color: rgb(238, 102, 104);
+}
+
+#main-img {
+  height: 500px;
+  width: auto;
+}
+
+/* background: rgb(252, 233, 229)
+dark blue: rgb(52, 50, 183)
+floor pink: rgb(238, 102, 104) #ee6668
+chair: rgb(183, 179, 255) #b7b3ff
+desk: rgb(123, 122, 215) #7b7ad7
+desktop: rgb(52, 50, 183) #3432b7 calculator border
+light: rgb(205, 42, 81) #cd2a51 */
